@@ -11,7 +11,7 @@ spec:
   source: 
     path: guestbook
     repoURL: "https://github.com/Psinesio/est_argocd_pratica/tree/main/app_argocd.git"
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
